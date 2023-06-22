@@ -3,7 +3,12 @@ body {
     font-family: sans-serif;
     padding: 20px;
     margin: 0;
+    /* make background image cover the entire page */
+    background-size: cover;
+    /* make sure the content is always on top */
+    position: relative;
     
+
 }
 
 h1{
