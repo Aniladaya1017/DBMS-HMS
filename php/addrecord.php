@@ -27,6 +27,8 @@ $sql = "INSERT INTO PatientDiagnosis (Patient_ID, Diagnosis_Date, Diagnosis_Deta
 if (mysqli_query($conn, $sql)) {
     // Record insertion successful
     echo "Record added successfully.";
+    //redirect to docprof.php in 3 sec
+    header("refresh:3; url=docprof.php");
 } else {
     // Error in record insertion
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);

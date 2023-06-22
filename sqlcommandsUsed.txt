@@ -109,3 +109,12 @@ INSERT INTO PatientDiagnosis (Patient_ID, Diagnosis_Date, Diagnosis_Details, Doc
 
 ALTER TABLE PatientDiagnosis
 DROP COLUMN Diagnosis_ID;
+
+ALTER TABLE patient
+ADD COLUMN Password VARCHAR(30) AFTER Address;
+
+UPDATE patient SET Password = 'password1' WHERE Patient_Id = 1;
+UPDATE patient SET Password = 'password2' WHERE Patient_Id = 2;
+UPDATE patient SET Password = 'password3' WHERE Patient_Id = 3;
+UPDATE patient SET Password = 'password4' WHERE Patient_Id = 4;
+UPDATE patient SET Password = 'password5' WHERE Patient_Id = 5;

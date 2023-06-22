@@ -1,8 +1,8 @@
-html{
-    background: #180da7 ;
+html {
+    background: #180da7;
 }
 
-h1{
+h1 {
     position: absolute;
     width: 1079px;
     height: 34px;
@@ -14,7 +14,7 @@ h1{
     font-size: 50px;
     line-height: 121px;
     text-align: center;
-    color:aliceblue;
+    color: aliceblue;
 }
 
 .rectangle {
@@ -24,33 +24,36 @@ h1{
     position: absolute;
     left: 0;
     top: -10px;
-  }
-  .profile-icon {
+}
+
+.profile-icon {
     width: 189px;
     height: 170px;
     background-size: cover;
     position: absolute;
     top: 50px;
     left: 45px;
-  } 
-  .rectangle2 {
+} 
+
+.rectangle2 {
     width: 491px;
     height: 477px;
     background-color: #D9D9D9;
     position: absolute;
     left: 900px;
     top: 150px;
-  }
+}
 
-  .rectangle3 {
+.rectangle3 {
     width: 491px;
     height: 477px;
     background-color: #D9D9D9;
     position: absolute;
     left: 400px;
     top: 150px;
-  }
-  h3{
+}
+
+h3 {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -62,45 +65,42 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
+    color: rgb(10, 11, 11);
 }
-.recent{
-    
+
+.recent {
     position: absolute;
     width: 213px;
     height: 60px;
     left: 425px;
     top: -150px;  
     font-family: initial;
-    font-style:i ;
+    font-style: italic;
     font-weight: 500;
     font-size: 20px;
     line-height: 100px;
-    text-align:left;
-    color:rgb(10, 11, 11);
+    text-align: left;
+    color: rgb(10, 11, 11);
     white-space: nowrap;
-    
-      
 }
-.appoinment{
-    
+
+.appointment {
     position: absolute;
     width: 213px;
     height: 60px;
     left: 980px;
     top: -150px;  
     font-family: initial;
-    font-style:i ;
+    font-style: italic;
     font-weight: 500;
     font-size: 20px;
     line-height: 100px;
-    text-align:left;
-    color:rgb(10, 11, 11);
+    text-align: left;
+    color: rgb(10, 11, 11);
     white-space: nowrap;
-    
-      
 }
-.name{
+
+.name {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -112,10 +112,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-
+    color: rgb(10, 11, 11);
 }
-.age{
+
+.age {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -127,10 +127,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-
+    color: rgb(10, 11, 11);
 }
-.gender{
+
+.gender {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -142,10 +142,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-
+    color: rgb(10, 11, 11);
 }
-.contact{
+
+.contact {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -157,10 +157,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-
+    color: rgb(10, 11, 11);
 }
-.admission{
+
+.admission {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -172,12 +172,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-
-    
-
+    color: rgb(10, 11, 11);
 }
-.dia{
+
+.dia {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -189,10 +187,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-
+    color: rgb(10, 11, 11);
 }
-.pres{
+
+.pres {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -204,10 +202,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-    
+    color: rgb(10, 11, 11);
 }
-.doc{
+
+.doc {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -219,9 +217,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
+    color: rgb(10, 11, 11);
 }
-.add{
+
+.add {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -233,10 +232,10 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
-
+    color: rgb(10, 11, 11);
 }
-.ph{
+
+.ph {
     position: absolute;
     width: 213px;
     height: 60px;
@@ -248,6 +247,5 @@ h1{
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    color:rgb(10, 11, 11);
+    color: rgb(10, 11, 11);
 }
-

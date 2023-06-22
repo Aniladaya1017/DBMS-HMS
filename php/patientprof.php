@@ -20,7 +20,7 @@ if (isset($_POST['logout'])) {
 <html>
 
 <head>
-    <title>Doctor Profile</title>
+    <title>Patient Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
         body {
@@ -77,12 +77,12 @@ if (isset($_POST['logout'])) {
 <body>
     <div class="container">
         <div class="profile-container">
-            <h3>DOCTOR PROFILE</h3>
+            <h3>Patient PROFILE</h3>
             <table class="table table-bordered">
                 <tbody>
                     <tr>
                         <th>NAME</th>
-                        <td><?php echo $_SESSION['doctorName']; ?></td>
+                        <td><?php echo $_SESSION['patientName']; ?></td>
                     </tr>
                     <tr>
                         <th>AGE</th>
@@ -93,28 +93,54 @@ if (isset($_POST['logout'])) {
                         <td><?php echo $_SESSION['gender']; ?></td>
                     </tr>
                     <tr>
-                        <th>DEPARTMENT</th>
-                        <td><?php echo $_SESSION['department']; ?></td>
+                        <th>BLOOD GROUP</th>
+                        <td><?php echo $_SESSION['bloodGroup']; ?></td>
                     </tr>
                     <tr>
-                        <th>EXPERIENCE</th>
-                        <td><?php echo $_SESSION['experience']; ?></td>
+                        <th>HEIGHT</th>
+                        <td><?php echo $_SESSION['height']; ?></td>
                     </tr>
                     <tr>
-                        <th>PHONE NO</th>
+                        <th>WEIGHT</th>
+                        <td><?php echo $_SESSION['weight']; ?></td>
+                    </tr>
+                    <tr>
+                        <th>PHONE</th>
                         <td><?php echo $_SESSION['phone']; ?></td>
                     </tr>
                     <tr>
-                        <th>EMAIL</th>
-                        <td><?php echo $_SESSION['email']; ?></td>
+                        <th>ADDRESS</th>
+                        <td><?php echo $_SESSION['address']; ?></td>
+                    </tr>
+                    <tr>
+                        <th>DIAGNOSIS DETAILS</th>
+                        <td>
+                            <?php
+                            // Check if diagnosis array is not empty
+                            if (!empty($_SESSION['diagnosis'])) {
+                                foreach ($_SESSION['diagnosis'] as $diagnosis) {
+                                    echo $diagnosis['Diagnosis_Date'];
+                                    echo " --> ";
+                                    echo $diagnosis['Diagnosis_Details']; // Replace 'diagnosis_column_name' with the actual column name in the diagnosis table
+                                    echo "<br>";
+                                }
+                            } else {
+                                echo "No diagnosis records found.";
+                            }
+                            ?>
+                        </td>
                     </tr>
                 </tbody>
             </table>
 
             <div class="button-container">
-                <form method="POST" action="../addrecord.html">
-                    <button type="submit" class="btn btn-primary">Add Patient Records</button>
-                </form>
 
                 <form method="POST">
-                    <button type="submit" name="logout" class
+                    <button type="submit" name="logout" class="btn btn-primary">Logout</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
