@@ -24,7 +24,6 @@ $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) == 1) {
     // Login successful
     echo "Login successful. Redirecting to doctor dashboard...";
-    header("Location: index.html");
     // Perform any additional actions or redirect to the doctor dashboard page
 } else {
     // Login failed
