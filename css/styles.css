@@ -1,7 +1,9 @@
 body {
-    background-image: url('exp1.png');
+    background-image: url('../assets/exp1.png');
     font-family: sans-serif;
     padding: 20px;
+    margin: 0;
+    
 }
 
 h1{
@@ -16,6 +18,7 @@ h1{
     font-size: 100px;
     line-height: 121px;
     text-align: center;
+    color: #176B87;
 }
 
 #b1{
